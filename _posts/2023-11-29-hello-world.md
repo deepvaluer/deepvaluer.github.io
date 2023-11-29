@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Hello Jekyll
-categories: [Markdown,Code]
+categories: [MARKDOWN,CODE]
 excerpt: Jekyll를 이용한 블로그 만들기.
 ---
 
