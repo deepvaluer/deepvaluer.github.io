@@ -63,12 +63,12 @@ h2 {
   font-size: 24px;
 }
 
-h1, h2, h3 {
+.detailed h1,.detailed h2,.detailed h3 {
   text-align: center;
 }
 
 @media (min-width: 769px){
-	.post h2::before, .post h2::after {
+	.detailed h2::before, .detailed h2::after {
 	    content: "";
 	    display: inline-block;
 	    vertical-align: middle;
