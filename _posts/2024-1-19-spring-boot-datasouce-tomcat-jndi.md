@@ -69,7 +69,7 @@ public class TomcatConfig implements WebServerFactoryCustomizer<TomcatServletWeb
         enableNaming(factory);
     }
 
-    private static void enableNaming(TomcatServletWebServerFactory server) {
+    private void enableNaming(TomcatServletWebServerFactory server) {
         server.addContextLifecycleListeners(new NamingContextListener());
 
         // The following code is copied from Tomcat
